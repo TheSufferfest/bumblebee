@@ -50,7 +50,7 @@ class Matcher {
 }
 
 // Bool value to return if you want this attachment to be on its own newline if needed.
-public let attachmentWhiteSpace: NSAttributedString.Key = NSAttributedStringKey(rawValue: "bumblebeewhitespace")
+public let attachmentWhiteSpace: NSAttributedString.Key = NSAttributedString.Key(rawValue: "bumblebeewhitespace")
 
 //Where the actual magic starts
 open class Parser {
